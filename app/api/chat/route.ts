@@ -79,7 +79,7 @@ async function callGemini(question: string, pdfBase64: string, apiKey: string) {
     generationConfig: {
       responseFormat: {
         text: {
-          mimeType: 'application/json',
+          mimeType: 'APPLICATION_JSON',
           schema: {
             type: 'object',
             properties: {
